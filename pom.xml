@@ -9,6 +9,10 @@
 	<version>1.2</version>
 	<name>jweb.power.expand.springMVC</name>
 	<url>https://github.com/weixinkeji/jweb.power.expand.springMVC</url>
+	<description>
+  	JWebPower框架 对接SpringMVC5 接口
+   </description>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
