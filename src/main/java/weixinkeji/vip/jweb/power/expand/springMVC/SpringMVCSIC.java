@@ -21,17 +21,26 @@ import weixinkeji.vip.jweb.power.config.JWPSystemInterfaceConfig;
  *
  */
 public class SpringMVCSIC implements JWPSystemInterfaceConfig{
-
+	
+	/**
+	 * 取得注解在类上的路径（有可能是约定方式，url即类名）
+	 */
 	@Override
 	public String getURLByClass(Class<?> c) {
 		return getUrlMapping(c);
 	}
-
+	
+	/**
+	 * 取得注解在方法的路径（有可能是约定方式，url即方法名）
+	 */
 	@Override
 	public String getURLByMethod(Method method) {
 		return getUrlMapping(method);
 	}
-
+	
+	/**
+	 * 请求路径的后缀。
+	 */
 	@Override
 	public String[] getRequestUrlSuffix() {
 		return new String[] { ".json", ".xml" };
