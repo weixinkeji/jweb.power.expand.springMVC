@@ -8,7 +8,7 @@
 	<artifactId>jweb.power.expand.springMVC</artifactId>
 	<version>1.2</version>
 	<name>jweb.power.expand.springMVC</name>
-	<url>http://www.example.com</url>
+	<url>https://github.com/weixinkeji/jweb.power.expand.springMVC</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
@@ -25,7 +25,7 @@
 			<name>wangchunzi</name>
 			<email>pankeng1988w@aliyun.com</email>
 			<organization>wangchunzi</organization>
-			<url>https://github.com/weixinkeji/jwebPowerExpand</url>
+			<url>https://github.com/weixinkeji/jweb.power.expand.springMVC</url>
 			<roles>
 				<role>developer</role>
 			</roles>
@@ -33,9 +33,9 @@
 		</developer>
 	</developers>
 	<scm>
-		<connection>scm:git:https://github.com/weixinkeji/jwebPowerExpand.git</connection>
-		<developerConnection>scm:git:https://github.com/weixinkeji/jwebPowerExpand.git</developerConnection>
-		<url>https://github.com/weixinkeji/jwebPowerExpand</url>
+		<connection>scm:git:https://github.com/weixinkeji/jweb.power.expand.springMVC.git</connection>
+		<developerConnection>scm:https://github.com/weixinkeji/jweb.power.expand.springMVC.git</developerConnection>
+		<url>https://github.com/weixinkeji/jweb.power.expand.springMVC</url>
 		<tag>v${project.version}</tag>
 	</scm>
 	<distributionManagement>
